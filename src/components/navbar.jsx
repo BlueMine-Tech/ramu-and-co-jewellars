@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Menu, X, Phone, Mail } from 'lucide-react';
 
-export default function RamuCoNavbar() {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (

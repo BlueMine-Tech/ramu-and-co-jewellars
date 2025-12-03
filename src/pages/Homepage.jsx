@@ -1,6 +1,5 @@
 import React from 'react'
-import Herosection from '../components/herosection'
-
+import Herosection from '../components/herosection';
 const Homepage = () => {
   return (
      <div className="min-h-screen bg-white">

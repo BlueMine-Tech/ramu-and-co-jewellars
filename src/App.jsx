@@ -1,16 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import Homepage from "./pages/homepage";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

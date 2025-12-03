@@ -1,5 +1,6 @@
 import React from 'react'
 import Herosection from '../components/herosection';
+import JewelleryCategoriesSection from '../components/Jewelcategory';
 const Homepage = () => {
   return (
      <div className="min-h-screen bg-white">
@@ -14,6 +15,7 @@ const Homepage = () => {
           </p>
         </div>
       </div>
+      <JewelleryCategoriesSection/>
     </div>
   );
 };

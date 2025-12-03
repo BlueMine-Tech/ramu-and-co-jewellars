@@ -1,6 +1,6 @@
 import React from 'react'
-import Herosection from '../components/herosection';
-import JewelleryCategoriesSection from '../components/Jewelcategory';
+import Herosection from '../components/herosection.jsx';
+import JewelleryCategoriesSection from '../components/Jewelcategory.jsx';
 const Homepage = () => {
   return (
      <div className="min-h-screen bg-white">
